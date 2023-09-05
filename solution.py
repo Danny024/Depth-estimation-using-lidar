@@ -21,11 +21,10 @@ for i in range(n):
         s[i, j, :] = r[i, j] * g(t - t_ij[i, j]) + b[i, j]
         
         
-#Question 2
+
 # Generates noisy data cube
 y = np.random.poisson(s)
 
-#Question 3
 # Matched filtering to estimate depth map
 t_hat = np.zeros((n, n))
 for i in range(n):
@@ -35,7 +34,6 @@ for i in range(n):
         max_idx = np.argmax(xcorr_g_y)
         t_hat[i, j] = t[max_idx]
 
-#Question 4
 # Display clean and estimated depth maps
 import matplotlib.pyplot as plt
 
