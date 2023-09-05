@@ -11,7 +11,7 @@ g = @(x) exp(-x.^2/3^2); % Gaussian impulse response
 load Depth_CameraMan.mat % load Cameraman image
 t_ij = double(CameraMan)/255 * t_max; % scale to [0, t_max]
 
-%Question 1
+
 %Generates the data cube
 s = zeros(n,n,t_max);
 for i = 1:n
@@ -20,11 +20,11 @@ for i = 1:n
     end
 end
 
-%Question 2
+
 % Generate noisy data cube
 y = poissrnd(s);
 
-%Question 3
+
 % Matched filtering to estimate depth map
 t_hat = zeros(n);
 for i = 1:n
@@ -36,7 +36,6 @@ for i = 1:n
     end
 end
 
-%Question 4
 % Display clean Camera image and the estimated depth maps
 figure;
 subplot(1,2,1);
