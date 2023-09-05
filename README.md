@@ -13,7 +13,7 @@ The Lidar data is seen as _Depth_CameraMan.mat_
 
 ## Guide
 ```
-The solution.m and **solution.py** are the matlab and python code for converting the lidar to data to depth images.
+The solution.m and solution.py are the matlab and python code for converting the lidar to data to depth images.
 ```
 
 ## Results
