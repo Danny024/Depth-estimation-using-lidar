@@ -2,8 +2,8 @@
 This projects provides a solution using a generated simulated lidar histogram to estimate the depth image using a simple matched filter algorithm and display the results.
 
 ## Installation
-Python 3.8
-Matlab 2022
+1. Python 3.8
+2. Matlab 2022
 
 ## Data Description
 The Lidar System provides a 3-D cube of data where two dimensions are related to pixels and the third is related to time-of-flight or range. 
