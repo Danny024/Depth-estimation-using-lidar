@@ -18,8 +18,10 @@ The solution.m and solution.py are the matlab and python code respectively for c
 
 ## Results
 Depth Images from running Matlab Code
+
 ![Matlab Code](result/matlab.jpg) 
 
 Depth Image from running Python Code
+
 ![Python](result/python.jpg) 
 
