@@ -1,5 +1,5 @@
 # Depth-estimation-using-lidar
-This projects provides a solution using a generated simulated lidar histogram to estimate the depth image using a simple matched filter algorithm and displays the results.
+This projects provides a solution using a generated simulated lidar histogram to estimate the depth image by applying a simple matched filter algorithm.
 
 ## Installation
 1. Python 3.8
